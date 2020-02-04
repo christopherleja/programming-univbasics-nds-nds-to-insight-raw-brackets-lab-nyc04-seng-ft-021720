@@ -28,21 +28,7 @@ while row_index < directors_database.length do
     row_index += 1
   end
  
- result = {"#{director_name[row_index]}" => value_total
-   #"Stephen Spielberg" => value_spielberg,
-   #"Russo Brothers" => value_russos,
-   #"James Cameron" => value_cameron,
-   #"Spike Lee" => value_lee,
-   #"Wachowski Siblings" => value_wachowskis,
-   #"Robert Zemeckis" => value_zemeckis,
-   #"Quentin Tarantino" => value_tarantino,
-   #"Martin Scorsese" => value_scorsese,
-   #"Francis Ford Coppola" => value_coppola
- 
- }
-
-puts director_name.length
  total_gross
-  #result
+ 
 end
 
